@@ -242,12 +242,11 @@ header.sticky{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 8px;
+  padding: 6px;
   margin: auto;
   margin-top: 15vh;
   border-radius: 15px;
   border: 4px dashed yellow;
-  position: relative;
   background-color: rgb(0, 0, 0, 1);
  
 }
@@ -256,17 +255,23 @@ header.sticky{
   flex-direction: column;
   width: 40%;
   margin: auto;
+  margin-top: 30px;
   border-radius: 15px;
   text-align: center;
   padding: 4px;
   color: gold;
-  font-size: 18px;
+  
 }
 .elaboraciones_indi h3{
  font-size: 23px;
  color: black;
- background-color: rgb(211, 200, 139);
- 
+ height: 45px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 15px;
+ background-color: rgb(230, 204, 62);
+
  text-align: center;
 }
 .elaboraciones_indi img{
@@ -296,6 +301,7 @@ header.sticky{
 .social{
 margin: 50px;
 margin-top: 30vh;
+padding: 15px;
 background-color: black;
 color: gold;
 border-radius: 15px;
@@ -311,7 +317,7 @@ border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 10px;
   font-size: 45px;
 }
 .links a{
