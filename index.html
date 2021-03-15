@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="Scripts/script.css">
     <!-- Font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-<!-- Font Akaya teligala -->
+<!-- Font roboto -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header> 
+    <header class="sticky"> 
         <div class="navegador">
             <nav class="nav">
+                <!-- Logo creado con logomakr -->
               <img src="Fotos/Logo1.png" alt="La coctelería en tu casa LOGO" class="nav-brand">  
                 <ul class="nav-menu">
                     <li>
@@ -50,30 +51,30 @@
         </div>
         
     </header>
-    
-        <div class="cabecera">
-        <div class="titulo">
-            <h1>La Coctelería en tu casa</h1>
-        </div>
-        <div class="container_Portada">
-            <div class="panel active" style="background-image: url('Fotos/blue.jpeg')">
-              <h3>Sorpesa Azul</h3>
+    <article class="cabecera">
+            <div class="titulo">
+                <h1>La Coctelería en tu casa</h1>
             </div>
-            <div class="panel" style="background-image: url(Fotos/mule.jpeg)">
-              <h3>Piña Mule</h3>
+            <div class="container_Portada">
+                <div class="panel active" style="background-image: url('Fotos/blue.jpeg')">
+                    <h3>Sorpesa Azul</h3>
+                </div>
+                <div class="panel" style="background-image: url(Fotos/mule.jpeg)">
+                    <h3>Piña Mule</h3>
+                </div>
+                <div class="panel" style="background-image: url(Fotos/starmrtii.jpeg)">
+                    <h3>Nuestro Martini</h3>
+                </div>
+                <div class="panel" style="background-image: url(Fotos/taikiki.jpeg)">
+                    <h3>Taitiki</h3>
+                </div>
+                <div class="panel" style="background-image: url(Fotos/blackglass.jpeg)">
+                    <h3>El Picante</h3>
+                </div>
+                
             </div>
-            <div class="panel" style="background-image: url(Fotos/starmrtii.jpeg)">
-              <h3>Nuestro Martini</h3>
-            </div>
-            <div class="panel" style="background-image: url(Fotos/taikiki.jpeg)">
-              <h3>Taitiki</h3>
-            </div>
-            <div class="panel" style="background-image: url(Fotos/blackglass.jpeg)">
-              <h3>El Picante</h3>
-            </div>
-      
-          </div>
-        </div>
+        
+    </article>
 
         
     <main>
@@ -124,24 +125,53 @@
                 </div>
             </div>
     
+            <h2 class="tituloProductos">Quieres ver como lo realizamos ?</h2>
         <div class="elaboraciones">
-                <!-- <img src="Fotos/hieoportada.jpg" alt=""> -->
-                <h2>Quieres ver como lo realizamos ?</h2>
-                <p>En este coctel lo elaboramos de la siguiente manera: <br>
-                Los ingredientes para realizarlo serian:
-                <ul>Ingedientes
-                    <li>50ml Ron</li>
-                    <li>15ml Sirope de Manzana</li>
-                    <li>15ml Sirope de Manzana</li>
-                </ul>
-            </p>
-                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i> </a>
+                <div class="elaboraciones_indi">
+                    <h3>Taitiki</h3>
+                    <img src="Fotos/taikiki.jpeg" alt="">
+                        <ul>Ingedientes
+                            <li>50ml Ron</li>
+                            <li>15ml Sirope de Manzana</li>
+                            <li>15ml Grand manier</li>
+                        </ul>
+                    
+                    <a href="#">Video <i class="fas fa-angle-double-right"></i> </a>
+                </div>
+                <div class="elaboraciones_indi">
+                    <h3>Porn Star </h3>
+                    <img src="Fotos/starmrtii.jpeg" alt="">
+                        <ul>Ingedientes
+                            <li>50ml Vozka</li>
+                            <li>15ml Sirope de vainilla</li>
+                            <li>15ml zumo de Piña</li>
+                        </ul>
+                    
+                    <a href="#">Video <i class="fas fa-angle-double-right"></i> </a>
+                </div>
          </div>
         
+     <section class="social">
+         <p>Sigue nuestras novedades</p>
+         <div class="links">
+             <a href="#">
+                 <i class="fab fa-facebook-square" ></i>
+             </a>
+             <a href="#">
+                 <i class="fab fa-instagram" ></i>
+             </a>
+             <a href="#">
+                 <i class="fab fa-linkedin" ></i>
+             </a>
+         </div>
+     </section>    
+
     </main>
     <footer class="footer">
-        WireFrame. Albert Sarda , Bcn_Activa 2021.
-      </footer>
+      <h3>  WireFrame. Albert Sarda , Bcn_Activa 2021. </h3>  
+      <br>
+        <p>La cocteleria creativa Copyright@</p>
+    </footer>
 
 
     <script src="JavaScript/script.js"></script>
